@@ -5,7 +5,7 @@ Start_time_seconds=$(date +%s)
 
 echo "Script executed at: $START_TIME"
 
-sleep 7
+sleep 10
 
 END_TIME=$(date +%Y-%m-%d-%H-%M-%S)
 End_time_seconds=$(date +%s)
