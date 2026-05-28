@@ -22,7 +22,7 @@ VALIDATE(){
 }
 
 dnf list installed $2
-if [ $1 -ne 0]; then
+if [ $1 -ne 0 ]; then
     dnf install mysql -y
         VALIDATE $? "MySQL"
 else 
@@ -30,7 +30,7 @@ else
 fi
 
 dnf list installed $2
-if [ $1 -ne 0]; then
+if [ $1 -ne 0 ]; then
     dnf install nginx -y
         VALIDATE $? "Nginx"
 else 
@@ -38,7 +38,7 @@ else
 fi
 
 dnf list installed $2
-if [ $1 -ne 0]; then
+if [ $1 -ne 0 ]; then
     dnf install python3 -y
         VALIDATE $? "Python3"
 else 
