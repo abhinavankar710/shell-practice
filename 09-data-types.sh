@@ -9,7 +9,7 @@ SUM=$(($NUMBER1 + $NUMBER2 + $NAME))
 
 echo "SUM is: ${SUM}"
 
-LEADERS="Mahatma Gandhi, Martin Luther King Jr., Nelson Mandela"
+LEADERS=("Mahatma Gandhi" "Martin Luther King Jr." "Nelson Mandela")
 
 echo "All Famous Leaders are: ${LEADERS[@]}"
 echo "First Leader is: ${LEADERS[0]}"
